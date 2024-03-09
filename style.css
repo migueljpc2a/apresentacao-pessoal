@@ -22,6 +22,14 @@ header > nav > a {
   max-width: 640px;
 }
 
+#contato > ul > li {
+  margin: 4px 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
