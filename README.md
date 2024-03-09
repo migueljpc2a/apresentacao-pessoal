@@ -1,7 +1,7 @@
 # Apresentação Pessoal
 
 ![GitHub top language](https://img.shields.io/github/languages/top/kauefraga/apresentacao-pessoal)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fkauefraga.github.io%2Fapresentacao-pessoal&label=Visitors&countColor=%23263759&style=flat)
+![Visits Badge](https://badges.pufler.dev/visits/kauefraga/apresentacao-pessoal)
 ![GitHub's license](https://img.shields.io/github/license/kauefraga/apresentacao-pessoal)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/kauefraga/apresentacao-pessoal/main)
 
