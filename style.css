@@ -2,6 +2,7 @@
 :root {
   --a-decoration-color: #414c2d;
   --tecnologia-decoration-color: #c4e587;
+  --li-background-color: #15190f;
 }
 
 body {
@@ -44,8 +45,29 @@ header > nav > a {
   padding-left: 8px;
 }
 
-#contato > ul > li {
-  margin: 4px 0;
+#contato > ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  gap: 24px;
+  justify-content: center;
+}
+
+#contato > ul > li > a {
+  border: 1px solid var(--li-background-color);
+  border-radius: 6px;
+  background-color: var(--li-background-color);
+  color: white;
+  text-decoration: none;
+
+  padding: 6px 12px;
+}
+
+#contato > ul > li > a:hover {
+  border-color: var(--a-decoration-color);
+  background-color: var(--a-decoration-color);
 }
 
 @media (max-width: 768px) {
