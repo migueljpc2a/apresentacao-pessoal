@@ -61,6 +61,10 @@ header > nav > a {
     display: flex;
   }
 
+  main {
+    padding: 8px 16px;
+  }
+
   p {
     max-width: 480px;
   }
