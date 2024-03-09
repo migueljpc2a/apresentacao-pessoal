@@ -1,8 +1,30 @@
+/* Paleta: https://colorkit.co/color-palette-generator/c4e587-15190f-414c2d-6d7f4b-98b269 */
+:root {
+  --a-decoration-color: #414c2d;
+  --tecnologia-decoration-color: #c4e587;
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration-color: var(--a-decoration-color);
+}
+
+p {
+  text-align: justify;
+  text-wrap: wrap;
+  max-width: 640px;
+}
+
+.tecnologia {
+  text-decoration: underline;
+  text-decoration-color: var(--tecnologia-decoration-color);
 }
 
 header {
@@ -17,17 +39,13 @@ header > nav > a {
   margin: 0 16px;
 }
 
-#sobremim {
-  text-wrap: wrap;
-  max-width: 640px;
+.border-left {
+  border-left: 2px solid var(--a-decoration-color);
+  padding-left: 8px;
 }
 
 #contato > ul > li {
   margin: 4px 0;
-}
-
-.underline {
-  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -39,7 +57,11 @@ header > nav > a {
     font-size: 20px;
   }
 
-  #sobremim {
+  header > nav {
+    display: flex;
+  }
+
+  p {
     max-width: 480px;
   }
 }
