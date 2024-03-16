@@ -18,7 +18,7 @@ a {
 }
 
 p {
-  text-align: justify;
+  line-height: 1.4;
   text-wrap: wrap;
   max-width: 640px;
 }
@@ -43,6 +43,14 @@ header > nav > a {
 .border-left {
   border-left: 2px solid var(--a-decoration-color);
   padding-left: 8px;
+}
+
+#icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 8px 0;
 }
 
 #contato > ul {
