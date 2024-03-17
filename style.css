@@ -52,16 +52,6 @@ header > nav > a {
   user-select: none;
 }
 
-#certificacoes > table {
-  display: flex;
-  justify-content: center;
-  border: 1px solid var(--li-background-color);
-}
-
-#certificacoes > table > tr > td > a {
-  text-decoration-color: var(--tecnologia-decoration-color);
-}
-
 #contato > ul {
   display: flex;
   flex-wrap: wrap;
