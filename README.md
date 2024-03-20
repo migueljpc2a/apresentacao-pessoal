@@ -4,7 +4,7 @@
 ![GitHub's license](https://img.shields.io/github/license/kauefraga/apresentacao-pessoal)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/kauefraga/apresentacao-pessoal/main)
 
-> Um site com minha apresentação pessoal. Atividade da disciplina de PPW (Programação Para a Web), CEDUP.
+> Um site com minha apresentação pessoal.
 
 > [!IMPORTANT]
 > Sinta-se à vontade para fazer um fork ou utilizar este repositório como inspiração e preencher com informações sobre você.
